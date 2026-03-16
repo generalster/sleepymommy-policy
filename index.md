@@ -32,5 +32,5 @@ permalink: /
 </ul>
 
 <div class="index-contact">
-  <p>Sorularınız için: <a href="mailto:ibrahimseker8@gmail.com">ibrahimseker8@gmail.com</a></p>
+  <p>Sorularınız için: <a href="mailto:sugar.studio.tr@gmail.com">sugar.studio.tr@gmail.com</a></p>
 </div>
