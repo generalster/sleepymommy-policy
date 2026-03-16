@@ -121,7 +121,7 @@ Gizlilik Politikamızı zaman zaman güncelleyebiliriz. Değişiklikler bu sayfa
 
 Gizlilik Politikamız hakkında soru veya önerileriniz için bizimle iletişime geçebilirsiniz:
 
-**E-posta:** ibrahimseker8@gmail.com
+**E-posta:** sugar.studio.tr@gmail.com
 
 ---
 
