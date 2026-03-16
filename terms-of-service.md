@@ -8,7 +8,7 @@ permalink: /terms-of-service
 
 **Son güncelleme:** 16 Mart 2026
 
-Bu Kullanıcı Sözleşmesi ("Sözleşme"), BabySleep ("biz", "bize", "bizim") tarafından geliştirilen **SleepyMommy** mobil uygulamasını ("Uygulama") kullanan bireyler ("Kullanıcı", "siz") arasındaki yasal ilişkiyi düzenler.
+Bu Kullanıcı Sözleşmesi ("Sözleşme"), **Sugar Studios** ("biz", "bize", "bizim") tarafından geliştirilen **SleepyMommy** mobil uygulamasını ("Uygulama") kullanan bireyler ("Kullanıcı", "siz") arasındaki yasal ilişkiyi düzenler.
 
 Uygulamayı indirerek veya kullanarak bu Sözleşme'nin tüm koşullarını okuduğunuzu, anladığınızı ve kabul ettiğinizi beyan edersiniz. Bu koşulları kabul etmiyorsanız lütfen Uygulamayı kullanmayınız.
 
@@ -57,7 +57,7 @@ Aşağıdaki eylemler kesinlikle yasaktır:
 
 ### 3.1 Yerel Depolama
 
-Uygulamaya girdiğiniz tüm veriler yalnızca **cihazınızda yerel olarak saklanır**. Bu veriler BabySleep sunucularına iletilmez.
+Uygulamaya girdiğiniz tüm veriler yalnızca **cihazınızda yerel olarak saklanır**. Bu veriler **Sugar Studios** sunucularına iletilmez.
 
 ### 3.2 Kullanıcı Sorumluluğu
 
@@ -80,7 +80,7 @@ Uygulama, ücretsiz temel özellikler ile isteğe bağlı ücretli premium özel
 
 ### 4.2 Satın Alma İşlemi
 
-Tüm satın almalar **Google Play Store** üzerinden gerçekleştirilir. Ödeme işlemleri Google tarafından yönetilir; ödeme bilgilerinize BabySleep erişemez.
+Tüm satın almalar **Google Play Store** üzerinden gerçekleştirilir. Ödeme işlemleri Google tarafından yönetilir; ödeme bilgilerinize **Sugar Studios** erişemez.
 
 ### 4.3 İade Politikası
 
@@ -96,7 +96,7 @@ Abonelik varsa Google Play hesabınız üzerinden iptal edebilirsiniz. İptal, m
 
 ### 5.1 Uygulama Mülkiyeti
 
-SleepyMommy uygulaması, kaynak kodu, tasarımı, logosu ve içeriği dahil tüm fikri mülkiyet hakları BabySleep'e aittir. Telif hakkı yasaları ve uluslararası anlaşmalar kapsamında korunmaktadır.
+SleepyMommy uygulaması, kaynak kodu, tasarımı, logosu ve içeriği dahil tüm fikri mülkiyet hakları **Sugar Studios'a** aittir. Telif hakkı yasaları ve uluslararası anlaşmalar kapsamında korunmaktadır.
 
 ### 5.2 Kullanım Lisansı
 
@@ -108,11 +108,11 @@ Bu Sözleşme'yi kabul ederek; Uygulamayı yalnızca kişisel ve ticari olmayan 
 
 ### 6.1 Garantisiz Hizmet
 
-Uygulama **"olduğu gibi"** ve **"mevcut haliyle"** sunulmaktadır. BabySleep, açık veya zımni hiçbir garanti vermez.
+Uygulama **"olduğu gibi"** ve **"mevcut haliyle"** sunulmaktadır. **Sugar Studios,** açık veya zımni hiçbir garanti vermez.
 
 ### 6.2 Sorumluluk Reddi
 
-BabySleep, aşağıdaki durumlardan kaynaklanan zararlardan sorumlu tutulamaz:
+**Sugar Studios**, aşağıdaki durumlardan kaynaklanan zararlardan sorumlu tutulamaz:
 - Uygulama kullanımından veya kullanılamamasından doğan doğrudan, dolaylı, arızi veya sonuç olarak ortaya çıkan zararlar
 - Veri kaybı veya bozulması
 - Uygulama verilerine dayanılarak alınan kararlardan doğan sonuçlar
@@ -120,13 +120,13 @@ BabySleep, aşağıdaki durumlardan kaynaklanan zararlardan sorumlu tutulamaz:
 
 ### 6.3 Azami Sorumluluk
 
-Her koşulda BabySleep'in azami sorumluluğu, hasara yol açan olaydan önceki 12 ay içinde ödenen uygulama içi satın alma bedeli ile sınırlıdır.
+Her koşulda **Sugar Studios'in**' azami sorumluluğu, hasara yol açan olaydan önceki 12 ay içinde ödenen uygulama içi satın alma bedeli ile sınırlıdır.
 
 ---
 
 ## 7. Değişiklikler
 
-BabySleep, bu Sözleşme'yi herhangi bir zamanda güncelleme hakkını saklı tutar. Değişiklikler bu sayfanın üstündeki "Son güncelleme" tarihi değiştirilerek duyurulur. Değişikliklerin ardından Uygulamayı kullanmaya devam etmeniz, yeni Sözleşme koşullarını kabul ettiğiniz anlamına gelir. Önemli değişiklikler için uygulama içi bildirim gönderilecektir.
+**Sugar Studios,** bu Sözleşme'yi herhangi bir zamanda güncelleme hakkını saklı tutar. Değişiklikler bu sayfanın üstündeki "Son güncelleme" tarihi değiştirilerek duyurulur. Değişikliklerin ardından Uygulamayı kullanmaya devam etmeniz, yeni Sözleşme koşullarını kabul ettiğiniz anlamına gelir. Önemli değişiklikler için uygulama içi bildirim gönderilecektir.
 
 ---
 
