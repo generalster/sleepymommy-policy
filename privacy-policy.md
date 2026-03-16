@@ -8,7 +8,7 @@ permalink: /privacy-policy
 
 **Son güncelleme:** 16 Mart 2026
 
-BabySleep tarafından geliştirilen **SleepyMommy** uygulaması, isteğe bağlı uygulama içi satın alma seçenekleri sunan ücretsiz bir hizmettir. Bu Hizmet BabySleep tarafından sunulmakta olup olduğu gibi kullanılmak üzere tasarlanmıştır.
+**Sugar Studios** tarafından geliştirilen **SleepyMommy** uygulaması, isteğe bağlı uygulama içi satın alma seçenekleri sunan ücretsiz bir hizmettir. Bu Hizmet **Sugar Studios** tarafından sunulmakta olup olduğu gibi kullanılmak üzere tasarlanmıştır.
 
 Bu sayfa; Hizmetimizi kullanmaya karar veren ziyaretçileri, kişisel bilgilerin toplanması, kullanılması ve ifşa edilmesiyle ilgili politikalarımız hakkında bilgilendirmek amacıyla hazırlanmıştır.
 
