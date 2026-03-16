@@ -146,7 +146,7 @@ Bu Sözleşme'nin herhangi bir hükmünün geçersiz veya uygulanamaz olduğu te
 
 Bu Sözleşme hakkında soru veya önerileriniz için bizimle iletişime geçebilirsiniz:
 
-**E-posta:** ibrahimseker8@gmail.com
+**E-posta:** sugar.studio.tr@gmail.com
 
 ---
 
