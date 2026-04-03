@@ -149,7 +149,7 @@ Bu uygulamayı kullanarak **Son Kullanıcı Lisans Sözleşmesi (EULA)** koşull
 
 ## 11. Bize Ulaşın
 
-**E-posta:** ibrahimseker8@gmail.com
+**E-posta:** sugar.studio.tr@gmail.com
 
 </div>
 
@@ -298,6 +298,6 @@ By using this App, you also accept the terms of the **End User License Agreement
 
 ## 11. Contact Us
 
-**Email:** ibrahimseker8@gmail.com
+**Email:** sugar.studio.tr@gmail.com
 
 </div>
