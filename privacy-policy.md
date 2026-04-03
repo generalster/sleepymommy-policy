@@ -16,7 +16,8 @@ BabySleep tarafından geliştirilen **SleepyMommy** uygulaması, isteğe bağlı
 
 ## Bilgi Toplama ve Kullanımı
 
-Hizmetimizden daha iyi bir deneyim sunabilmek için uygulama; bebek adı, doğum tarihi ve sağlıkla ilgili veriler (uyku, beslenme, büyüme, aşı kayıtları) gibi bazı bilgilerin girilmesini isteyebilir. Girilen tüm bilgiler **yalnızca cihazınızda yerel olarak saklanır** ve sunucularımıza iletilmez.
+Hizmetimizden daha iyi bir deneyim sunabilmek için uygulama; bebek adı, doğum tarihi ve sağlıkla ilgili veriler (uyku, beslenme, büyüme, aşı kayıtları) gibi bazı bilgilerin girilmesini isteyebilir. Girilen tüm bilgiler **yalnızca cihazınızda yerel olarak saklanır** ve sunucularımıza iletilmez.<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/7fe460f2-4982-4b0a-b0fb-fc5fa8ef91df" />
+
 
 Kişisel olarak tanımlanabilir herhangi bir bilgiyi **harici olarak toplamıyor, depolamıyor veya paylaşmıyoruz**.
 
@@ -118,7 +119,7 @@ Gizlilik Politikamızı zaman zaman güncelleyebiliriz. Değişiklikler bu sayfa
 
 ## Bize Ulaşın
 
-**E-posta:** ibrahimseker8@gmail.com
+**E-posta:** sugar.studio.tr@gmail.com
 
 </div>
 
@@ -236,6 +237,6 @@ We may update our Privacy Policy from time to time. Changes will be announced by
 
 ## Contact Us
 
-**Email:** ibrahimseker8@gmail.com
+**Email:** sugar.studio.tr@gmail.com
 
 </div>
