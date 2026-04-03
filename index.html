@@ -62,12 +62,11 @@ permalink: /
       color: rgba(255,255,255,.95); letter-spacing: .4px;
     }
     .lp-app-icon {
-      width: 80px; height: 80px; border-radius: 22px; margin: 0 auto 20px;
-      background: rgba(255,255,255,.22); border: 2px solid rgba(255,255,255,.35);
-      display: flex; align-items: center; justify-content: center;
-      box-shadow: 0 8px 24px rgba(0,0,0,.12);
+      width: 96px; height: 96px; border-radius: 24px; margin: 0 auto 20px;
+      box-shadow: 0 8px 32px rgba(0,0,0,.28), 0 2px 8px rgba(0,0,0,.18);
+      overflow: hidden;
     }
-    .lp-app-icon svg { width: 40px; height: 40px; }
+    .lp-app-icon img { width: 100%; height: 100%; display: block; }
     .lp-hero h1 {
       font-size: clamp(32px, 8vw, 52px); font-weight: 900; color: #fff;
       letter-spacing: -1.5px; line-height: 1.1; margin-bottom: 14px;
@@ -228,9 +227,7 @@ permalink: /
     <div class="header-inner">
       <a href="{{ '/' | relative_url }}" class="brand" aria-label="SleepyMommy — Ana sayfa">
         <div class="brand-icon" aria-hidden="true">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-            <path d="M12 3C7.03 3 3 7.03 3 12s4.03 9 9 9 9-4.03 9-9S16.97 3 12 3zm0 2c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14c-2.67 0-5.03-1.34-6.44-3.38.03-2.14 4.3-3.32 6.44-3.32 2.13 0 6.4 1.18 6.44 3.32C17.03 17.66 14.67 19 12 19z" fill="white"/>
-          </svg>
+          <img src="{{ '/assets/images/app-icon.png' | relative_url }}" alt="" width="28" height="28" style="border-radius:8px;display:block;" />
         </div>
         <span class="brand-name">SleepyMommy</span>
       </a>
@@ -266,9 +263,7 @@ permalink: /
             🍼 <span class="i-tr">Yakında Geliyor</span><span class="i-en">Coming Soon</span>
           </div>
           <div class="lp-app-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 3C7.03 3 3 7.03 3 12s4.03 9 9 9 9-4.03 9-9S16.97 3 12 3zm0 2c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14c-2.67 0-5.03-1.34-6.44-3.38.03-2.14 4.3-3.32 6.44-3.32 2.13 0 6.4 1.18 6.44 3.32C17.03 17.66 14.67 19 12 19z" fill="white"/>
-            </svg>
+            <img src="{{ '/assets/images/app-icon.png' | relative_url }}" alt="SleepyMommy" />
           </div>
           <h1>SleepyMommy</h1>
           <p class="lp-tagline">
