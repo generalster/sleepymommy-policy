@@ -141,7 +141,7 @@ Bu Sözleşme'nin herhangi bir hükmünün geçersiz olduğu tespit edilirse, ge
 
 ## 10. Bize Ulaşın
 
-**E-posta:** ibrahimseker8@gmail.com
+**E-posta:** sugar.studio.tr@gmail.com
 
 </div>
 
@@ -282,6 +282,6 @@ If any provision of these Terms is found to be invalid, the remaining provisions
 
 ## 10. Contact Us
 
-**Email:** ibrahimseker8@gmail.com
+**Email:** sugar.studio.tr@gmail.com
 
 </div>
