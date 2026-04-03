@@ -119,7 +119,7 @@ BabySleep bu EULA'yı herhangi bir zamanda güncelleme hakkını saklı tutar. D
 
 ## 14. Bize Ulaşın
 
-**E-posta:** ibrahimseker8@gmail.com
+**E-posta:** sugar.studio.tr@gmail.com
 
 </div>
 
@@ -238,6 +238,6 @@ BabySleep reserves the right to update this EULA at any time. Changes will be an
 
 ## 14. Contact Us
 
-**Email:** ibrahimseker8@gmail.com
+**Email:** sugar.studio.tr@gmail.com
 
 </div>
