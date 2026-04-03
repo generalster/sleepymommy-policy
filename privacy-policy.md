@@ -16,7 +16,7 @@ BabySleep tarafından geliştirilen **SleepyMommy** uygulaması, isteğe bağlı
 
 ## Bilgi Toplama ve Kullanımı
 
-Hizmetimizden daha iyi bir deneyim sunabilmek için uygulama; bebek adı, doğum tarihi ve sağlıkla ilgili veriler (uyku, beslenme, büyüme, aşı kayıtları) gibi bazı bilgilerin girilmesini isteyebilir. Girilen tüm bilgiler **yalnızca cihazınızda yerel olarak saklanır** ve sunucularımıza iletilmez.<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/7fe460f2-4982-4b0a-b0fb-fc5fa8ef91df" />
+Hizmetimizden daha iyi bir deneyim sunabilmek için uygulama; bebek adı, doğum tarihi ve sağlıkla ilgili veriler (uyku, beslenme, büyüme, aşı kayıtları) gibi bazı bilgilerin girilmesini isteyebilir. Girilen tüm bilgiler **yalnızca cihazınızda yerel olarak saklanır** ve sunucularımıza iletilmez.
 
 
 Kişisel olarak tanımlanabilir herhangi bir bilgiyi **harici olarak toplamıyor, depolamıyor veya paylaşmıyoruz**.
