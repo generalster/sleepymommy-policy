@@ -85,6 +85,9 @@ body {
   box-shadow: 0 3px 10px rgba(56,189,248,.38), 0 1px 3px rgba(56,189,248,.18);
   line-height: 0;
 }
+.brand-icon-img {
+  width: 38px; height: 38px; display: block; object-fit: cover;
+}
 .brand-name { font-size: 15px; font-weight: 700; color: var(--c-t-high); letter-spacing: -.4px; }
 .header-nav { display: flex; gap: 4px; }
 .nav-link {
