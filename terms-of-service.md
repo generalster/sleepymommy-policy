@@ -14,6 +14,8 @@ Bu Kullanıcı Sözleşmesi ("Sözleşme"), BabySleep ("biz", "bize", "bizim") t
 
 Uygulamayı indirerek veya kullanarak bu Sözleşme'nin tüm koşullarını okuduğunuzu, anladığınızı ve kabul ettiğinizi beyan edersiniz.
 
+👉 [Standart Son Kullanıcı Lisans Sözleşmesi (EULA)'yı görüntüle](https://generalster.github.io/sleepymommy-policy/eula)
+
 ---
 
 ## 1. Hizmetin Tanımı
@@ -139,15 +141,7 @@ Bu Sözleşme'nin herhangi bir hükmünün geçersiz olduğu tespit edilirse, ge
 
 ---
 
-## 10. Lisans Sözleşmesi
-
-Bu uygulamayı kullanarak **Son Kullanıcı Lisans Sözleşmesi (EULA)** koşullarını da kabul etmiş sayılırsınız.
-
-👉 [Standart Son Kullanıcı Lisans Sözleşmesi (EULA)'yı görüntüle](https://generalster.github.io/sleepymommy-policy/eula)
-
----
-
-## 11. Bize Ulaşın
+## 10. Bize Ulaşın
 
 **E-posta:** sugar.studio.tr@gmail.com
 
@@ -162,6 +156,8 @@ Bu uygulamayı kullanarak **Son Kullanıcı Lisans Sözleşmesi (EULA)** koşull
 These Terms of Service ("Terms") govern the legal relationship between BabySleep ("we", "us", "our") and individuals ("User", "you") who use the **SleepyMommy** mobile application ("App").
 
 By downloading or using the App, you declare that you have read, understood, and accepted all of these Terms.
+
+👉 [View the Standard End User License Agreement (EULA)](https://generalster.github.io/sleepymommy-policy/eula)
 
 ---
 
@@ -288,15 +284,7 @@ If any provision of these Terms is found to be invalid, the remaining provisions
 
 ---
 
-## 10. License Agreement
-
-By using this App, you also accept the terms of the **End User License Agreement (EULA)**.
-
-👉 [View the Standard End User License Agreement (EULA)](https://generalster.github.io/sleepymommy-policy/eula)
-
----
-
-## 11. Contact Us
+## 10. Contact Us
 
 **Email:** sugar.studio.tr@gmail.com
 
