@@ -139,9 +139,17 @@ Bu Sözleşme'nin herhangi bir hükmünün geçersiz olduğu tespit edilirse, ge
 
 ---
 
-## 10. Bize Ulaşın
+## 10. Lisans Sözleşmesi
 
-**E-posta:** sugar.studio.tr@gmail.com
+Bu uygulamayı kullanarak **Son Kullanıcı Lisans Sözleşmesi (EULA)** koşullarını da kabul etmiş sayılırsınız.
+
+👉 [Standart Son Kullanıcı Lisans Sözleşmesi (EULA)'yı görüntüle](https://generalster.github.io/sleepymommy-policy/eula)
+
+---
+
+## 11. Bize Ulaşın
+
+**E-posta:** ibrahimseker8@gmail.com
 
 </div>
 
@@ -280,8 +288,16 @@ If any provision of these Terms is found to be invalid, the remaining provisions
 
 ---
 
-## 10. Contact Us
+## 10. License Agreement
 
-**Email:** sugar.studio.tr@gmail.com
+By using this App, you also accept the terms of the **End User License Agreement (EULA)**.
+
+👉 [View the Standard End User License Agreement (EULA)](https://generalster.github.io/sleepymommy-policy/eula)
+
+---
+
+## 11. Contact Us
+
+**Email:** ibrahimseker8@gmail.com
 
 </div>
