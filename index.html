@@ -17,14 +17,21 @@ permalink: /
   <meta name="theme-color" id="meta-theme-color" content="#F0F9FF" />
   <script>
     (function () {
+      var d = document.documentElement;
+      d.classList.add('no-transition');
       var t = localStorage.getItem('sm-theme');
       if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-      document.documentElement.setAttribute('data-theme', t);
+      d.setAttribute('data-theme', t);
       var meta = document.getElementById('meta-theme-color');
       if (meta) meta.content = t === 'dark' ? '#0F172A' : '#F0F9FF';
       var l = localStorage.getItem('sm-lang') || 'tr';
-      document.documentElement.setAttribute('data-lang', l);
-      document.documentElement.lang = l;
+      d.setAttribute('data-lang', l);
+      d.lang = l;
+      window.addEventListener('load', function () {
+        requestAnimationFrame(function () {
+          d.classList.remove('no-transition');
+        });
+      });
     })();
   </script>
   <style>

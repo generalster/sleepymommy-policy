@@ -41,6 +41,24 @@ img, svg { display: block; max-width: 100%; }
 }
 .skip-link:focus { transform: translateY(0); }
 
+/* === Theme transition === */
+*, *::before, *::after {
+  transition:
+    background-color 400ms ease,
+    background 400ms ease,
+    border-color 400ms ease,
+    color 400ms ease,
+    box-shadow 400ms ease;
+}
+/* Suppress transition on initial page load to prevent flash */
+.no-transition *, .no-transition *::before, .no-transition *::after {
+  transition: none !important;
+}
+/* Exclude transforms, opacity, layout props from the blanket transition */
+.orb, .orb-1, .orb-2, .hero-deco, .skip-link {
+  transition: none;
+}
+
 /* === Body === */
 body {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
