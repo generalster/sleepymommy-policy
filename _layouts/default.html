@@ -9,6 +9,17 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  <!-- Tema ve dil tercihini CSS yüklenmeden önce uygula (flash önleme) -->
+  <script>
+    (function () {
+      var t = localStorage.getItem('sm-theme');
+      if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', t);
+      var l = localStorage.getItem('sm-lang') || 'tr';
+      document.documentElement.setAttribute('data-lang', l);
+      document.documentElement.lang = l;
+    })();
+  </script>
 </head>
 <body>
 
@@ -38,7 +49,7 @@
           <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/>
           </svg>
-          Gizlilik
+          <span class="i-tr">Gizlilik</span><span class="i-en">Privacy</span>
         </a>
         <a href="{{ '/terms-of-service' | relative_url }}"
            class="nav-link{% if page.permalink == '/terms-of-service' %} active{% endif %}"
@@ -46,8 +57,14 @@
           <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
           </svg>
-          Sözleşme
+          <span class="i-tr">Sözleşme</span><span class="i-en">Terms</span>
         </a>
+        <button class="ctrl-btn" id="lang-btn" onclick="toggleLang()" aria-label="Dili değiştir / Switch language">
+          <span class="i-tr">EN</span><span class="i-en">TR</span>
+        </button>
+        <button class="ctrl-btn ctrl-theme" id="theme-btn" onclick="toggleTheme()" aria-label="Temayı değiştir / Switch theme">
+          <span class="icon-sun">☀️</span><span class="icon-moon">🌙</span>
+        </button>
       </nav>
     </div>
   </header>
@@ -68,7 +85,10 @@
             </svg>
           </div>
           <h1 class="hero-title">SleepyMommy</h1>
-          <p class="hero-subtitle">Minik mucizenizle olan yolculukta güvenliğiniz önceliğimiz.</p>
+          <p class="hero-subtitle">
+            <span class="i-tr">Minik mucizenizle olan yolculukta güvenliğiniz önceliğimiz.</span>
+            <span class="i-en">Your safety is our priority on this journey with your little miracle.</span>
+          </p>
         </div>
       </div>
 
@@ -81,10 +101,16 @@
         <div class="hero-content">
           <div class="hero-tag" aria-hidden="true">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
-            Gizlilik Politikası
+            <span class="i-tr">Gizlilik Politikası</span><span class="i-en">Privacy Policy</span>
           </div>
-          <h1 class="hero-title">Verileriniz Güvende</h1>
-          <p class="hero-date">Son güncelleme: 16 Mart 2026</p>
+          <h1 class="hero-title">
+            <span class="i-tr">Verileriniz Güvende</span>
+            <span class="i-en">Your Data is Safe</span>
+          </h1>
+          <p class="hero-date">
+            <span class="i-tr">Son güncelleme: 3 Nisan 2026</span>
+            <span class="i-en">Last updated: April 3, 2026</span>
+          </p>
         </div>
       </div>
 
@@ -97,10 +123,16 @@
         <div class="hero-content">
           <div class="hero-tag" aria-hidden="true">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
-            Kullanıcı Sözleşmesi
+            <span class="i-tr">Kullanıcı Sözleşmesi</span><span class="i-en">Terms of Service</span>
           </div>
-          <h1 class="hero-title">Kullanım Koşulları</h1>
-          <p class="hero-date">Son güncelleme: 16 Mart 2026</p>
+          <h1 class="hero-title">
+            <span class="i-tr">Kullanım Koşulları</span>
+            <span class="i-en">Terms of Use</span>
+          </h1>
+          <p class="hero-date">
+            <span class="i-tr">Son güncelleme: 3 Nisan 2026</span>
+            <span class="i-en">Last updated: April 3, 2026</span>
+          </p>
         </div>
       </div>
       {% endif %}
@@ -114,13 +146,41 @@
       <footer class="page-footer" role="contentinfo">
         <p>© 2026 BabySleep · SleepyMommy</p>
         <nav class="footer-links" aria-label="Yasal belgeler alt bağlantıları">
-          <a href="{{ '/privacy-policy' | relative_url }}">Gizlilik Politikası</a>
-          <a href="{{ '/terms-of-service' | relative_url }}">Kullanıcı Sözleşmesi</a>
+          <a href="{{ '/privacy-policy' | relative_url }}">
+            <span class="i-tr">Gizlilik Politikası</span><span class="i-en">Privacy Policy</span>
+          </a>
+          <a href="{{ '/terms-of-service' | relative_url }}">
+            <span class="i-tr">Kullanıcı Sözleşmesi</span><span class="i-en">Terms of Service</span>
+          </a>
         </nav>
       </footer>
 
     </div>
   </main>
+
+  <script>
+    var _theme = localStorage.getItem('sm-theme') ||
+      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    var _lang  = localStorage.getItem('sm-lang') || 'tr';
+
+    function applyTheme(t) {
+      _theme = t;
+      document.documentElement.setAttribute('data-theme', t);
+      localStorage.setItem('sm-theme', t);
+    }
+    function applyLang(l) {
+      _lang = l;
+      document.documentElement.setAttribute('data-lang', l);
+      document.documentElement.lang = l;
+      localStorage.setItem('sm-lang', l);
+    }
+    function toggleTheme() { applyTheme(_theme === 'dark' ? 'light' : 'dark'); }
+    function toggleLang()  { applyLang(_lang === 'tr' ? 'en' : 'tr'); }
+
+    /* Başlangıç durumunu head script ile senkron tut */
+    applyTheme(_theme);
+    applyLang(_lang);
+  </script>
 
 </body>
 </html>
