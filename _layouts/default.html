@@ -68,6 +68,14 @@
           </svg>
           <span class="i-tr">Sözleşme</span><span class="i-en">Terms</span>
         </a>
+        <a href="{{ '/eula' | relative_url }}"
+           class="nav-link{% if page.permalink == '/eula' %} active{% endif %}"
+           {% if page.permalink == '/eula' %}aria-current="page"{% endif %}>
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-4h2v4zm0-6h-2V7h2v4z"/>
+          </svg>
+          <span>EULA</span>
+        </a>
         <button class="ctrl-btn" id="lang-btn" onclick="toggleLang()" aria-label="Dili değiştir / Switch language">
           <span class="i-tr">EN</span><span class="i-en">TR</span>
         </button>
@@ -121,6 +129,28 @@
         </div>
       </div>
 
+      {% elsif page.permalink == '/eula' %}
+      <!-- ── EULA hero ── -->
+      <div class="page-hero" role="banner" aria-label="EULA başlığı">
+        <div class="hero-deco hero-deco-1" aria-hidden="true"></div>
+        <div class="hero-deco hero-deco-2" aria-hidden="true"></div>
+        <div class="hero-deco hero-deco-3" aria-hidden="true"></div>
+        <div class="hero-content">
+          <div class="hero-tag" aria-hidden="true">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-4h2v4zm0-6h-2V7h2v4z"/></svg>
+            <span class="i-tr">Son Kullanıcı Lisans Sözleşmesi</span><span class="i-en">End User License Agreement</span>
+          </div>
+          <h1 class="hero-title">
+            <span class="i-tr">Lisans Koşulları</span>
+            <span class="i-en">License Terms</span>
+          </h1>
+          <p class="hero-date">
+            <span class="i-tr">Son güncelleme: 3 Nisan 2026</span>
+            <span class="i-en">Last updated: April 3, 2026</span>
+          </p>
+        </div>
+      </div>
+
       {% else %}
       <!-- ── Terms of service hero ── -->
       <div class="page-hero" role="banner" aria-label="Kullanıcı Sözleşmesi başlığı">
@@ -158,6 +188,9 @@
           </a>
           <a href="{{ '/terms-of-service' | relative_url }}">
             <span class="i-tr">Kullanıcı Sözleşmesi</span><span class="i-en">Terms of Service</span>
+          </a>
+          <a href="{{ '/eula' | relative_url }}">
+            EULA
           </a>
         </nav>
       </footer>
